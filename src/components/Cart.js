@@ -12,7 +12,7 @@ import {
   Text,
   Flex,
   Image,
-  Link,
+  //Link,
   Box,
   Icon,
 } from '@chakra-ui/react';
