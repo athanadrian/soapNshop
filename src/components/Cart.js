@@ -79,9 +79,9 @@ const Cart = () => {
           {lineItems?.length ? (
             <DrawerFooter>
               <Button w='100%'>
-                <Link w='100%' href={checkout.webUrl}>
-                  Checkout
-                </Link>
+                {/* <Link w='100%' href={checkout.webUrl}> */}
+                Checkout
+                {/* </Link> */}
               </Button>
             </DrawerFooter>
           ) : null}

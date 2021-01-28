@@ -20,8 +20,8 @@ const ImageWithSection = ({ image, heading, reverse, button, text }) => {
           alignItems='center'
           p='2rem'
         >
-          <Heading p='2rem'>{heading && heading}</Heading>
-          <Text p='2rem'>{text && text}</Text>
+          {heading && <Heading p='2rem'>{heading}</Heading>}
+          {text && <Text p='2rem'>{text}</Text>}
           {button ? <AppButton label='Buy now' /> : null}
         </Flex>
       </Flex>
